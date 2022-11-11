@@ -10,6 +10,7 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #1666AF;
+
 }
 
 /* headings and logo */
@@ -195,6 +196,7 @@ header {
 }
 
 /*About fishing*/
+
 #about-fishing {
     height: 600px;
 }
