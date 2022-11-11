@@ -194,12 +194,8 @@ header {
     margin: 15px 10px 0px 10px;
 }
 
-
-
-
-/* Club Ethos */
-
-#club-ethos {
+/*About fishing*/
+#about-fishing {
     height: 600px;
 }
 
@@ -232,6 +228,7 @@ hr {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+    
 }
 
 .right-about-heading {
@@ -244,6 +241,7 @@ hr {
 
 .right-about-heading h2 {
     text-align: right;
+    
 }
 
 .right-about-heading p {
@@ -254,6 +252,7 @@ hr {
     text-align: center;
     margin: 20px 0;
     font-size: 280%;
+    text-shadow: 2px 2px black;
 }
 
 #circle-container {
@@ -266,37 +265,11 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url('../images/ethos-center-image.jpg') no-repeat center center;
+    background: url('../images/fish.webp') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
-/* meetup times */
-
-#times {
-    background: url(../images/dublin-city.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow: hidden;
-}
-
-#times div {
-    color: #fafafa;
-    background-color: rgba(0, 0, 0, .6);
-    width: 20%;
-    height: 300px;
-    float: left;
-    padding: 30px 0 0 10px;
-    text-align: center;
-    border: 2px solid white;
-    box-sizing: border-box;
-}
-
-#times h2 {
-    color: #fafafa;
-}
 
 /* footer */
 
