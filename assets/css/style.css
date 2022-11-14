@@ -400,6 +400,48 @@ footer {
     color: #4cc9e9;
 }
 
+/*Thank you page */
+#thankyou-section{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#thankyou-section > h2 {
+    color: #1666AF;
+    font-size: 200%;
+    text-shadow: 2px 2px black;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.message-style {
+    font-family: Oswald, sans-serif;
+    font-weight: 300;
+    color: hsl(0, 67%, 1%);
+    font-size: 125%;
+    text-align: center;
+}
+
+#back-home-btn {
+    width: 150px;
+    height: 60px;
+
+    
+    border-radius: 2px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #4cc9e9;
+    color: #fafafa;
+    font-family: inherit;
+
+}
+
+#back-home-btn:hover{
+    background-color: #fafafa;
+    color: #4cc9e9;
+}
+
 /* Media Queries */
 
 /* For larger to medium screen size from 1200px width or less*/
