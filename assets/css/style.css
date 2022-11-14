@@ -323,7 +323,7 @@ footer {
     width: 60%;
     height: 60%;
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 110px;
     position: relative;
     left: 20%;
     top: 10px;
@@ -344,14 +344,17 @@ footer {
 .text-input {
     background: transparent;
     background: rgba(60, 64, 68, 0.8);
-    border: #d88f81 solid 2px;
+    border: #4cc9e9 solid 2px;
     border-radius: 2px;
     width: 50%;
     height: 25px;
     color: #e8e8e8;
     font-size: 100%;
-    text-shadow: 2px 2px black;
+   
+}
 
+.text-input:hover {
+    border-color: #fcfcfc;
 }
 
 .signup-form {
@@ -362,12 +365,23 @@ footer {
 }
 
 .signup-form > label {
-    
+    font-family: Oswald, sans-serif;
+    font-weight: 300;
+    color: hsl(0, 67%, 1%);
+    font-size: 125%;
+   
+
 }
 
-.text-input:hover {
-    border-color: #f16c6b;
+.signup-form > p {
+    font-family: Oswald, sans-serif;
+    font-weight: 300;
+    color: hsl(0, 67%, 1%);
+    font-size: 145%;
+
 }
+
+
 
 .join-button {
     margin-top: 20px;
@@ -375,7 +389,7 @@ footer {
     padding: 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
+    background-color: #4cc9e9;
     color: #fafafa;
     display: block;
     font-family: inherit;
@@ -383,7 +397,7 @@ footer {
 
 .join-button:hover {
     background-color: #fafafa;
-    color: #f16c6b;
+    color: #4cc9e9;
 }
 
 /* Media Queries */
