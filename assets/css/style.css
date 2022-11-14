@@ -521,12 +521,100 @@ footer {
     }
 }
 
-/* For small screen sizes 800px or less */
+/* For medium screen sizes 800px or less */
 
 @media screen and (max-width: 800px) {
     #photos {
         column-count: 2;
     }
+    
+}
+
+/* For small screen sizes from 460px and below*/
+
+@media screen and (max-width: 460px) {
+
+#logo {
+    float: left;
+    font-size: 60%;
+    margin-left: 10px;
+   
+}
+
+#menu {
+    font-size: 40%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+#hero-outer {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text,
+#cover-text h2 {
+    font-size: 50%;
+}
+
+
+#cover-text {
+    font-size: 60%;
+
+    width: 150px;
+    height: 100px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+
+
+.activity-box {
+    height: auto;
+    width: 32%;
+    margin-top: 30px;
+    overflow: hidden;
+    font-size: 70%;
+    
+}
+
+
+
+.activity-picture{
+    height: 200px;
+    border-radius: 10%;
+
+}
+
+
+
+.activity-box h3 {
+    font-size: 70%;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.activity-box p {
+    font-size: 50%;
+    text-align: left;
+    line-height: 30px;
+    margin: 15px 10px 0px 10px;
+}
+
+.signup-form {
+    padding-bottom: 285px;}
+
     
 }
 
