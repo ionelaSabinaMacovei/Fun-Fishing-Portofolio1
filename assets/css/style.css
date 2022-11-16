@@ -534,6 +534,16 @@ footer {
 
 @media screen and (max-width: 460px) {
 
+    header {
+        display: flex;
+        height: 68px;
+        margin: 5px 0px 5px 10px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: stretch;
+        align-items: center;
+    }
+
 #logo {
     float: left;
     font-size: 60%;
@@ -579,38 +589,34 @@ footer {
 }
 
 
+#activities {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+}
+
+
 .activity-box {
     height: auto;
-    width: 32%;
+    width: auto;
     margin-top: 30px;
     overflow: hidden;
-    font-size: 70%;
-    
+    font-size: 150%;
+    background-color: #bfe8f0
 }
 
+.activity-box {
+    margin: 20px auto;
+    border-radius: 5%;
+    font-weight: bold;
+    letter-spacing: 2px;
+    bottom: 0px;
 
+}
 
 .activity-picture{
-    height: 200px;
-    border-radius: 10%;
-
-}
-
-
-
-.activity-box h3 {
-    font-size: 70%;
-    letter-spacing: 4px;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.activity-box p {
-    font-size: 50%;
-    text-align: left;
-    line-height: 30px;
-    margin: 15px 10px 0px 10px;
-}
+    height: 400px;
+    border-radius: 10%;}
 
 .signup-form {
     padding-bottom: 285px;}
