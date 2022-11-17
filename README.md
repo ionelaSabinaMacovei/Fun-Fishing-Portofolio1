@@ -91,3 +91,15 @@ The thank you page displays a thankyou message after the users have submitted th
 
     - No errors were found when passing the thank-you.html page through the validator [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fionelasabinamacovei.github.io%2FFun-Fishing-Portofolio1%2Fthankyou.html)
 
+- CSS 
+    - No errors were found when passing through the official Jigsaw validator
+
+![Jigsaw validator](documents/images/jigsaw-validator.png)
+
+### Performance and Accessibility Testing
+The website was tested for performance and accessibilty using Lighthouse on google chrome's developer tools.
+
+![Lighthouse testing](documents/images/lighthouse-result.png)
+
+
+
