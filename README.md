@@ -9,8 +9,12 @@ It also has a sign up page which allows the user to join our mailing list which 
 
 The aim of the project is to build a responsive website using HTML and CSS.
 
-[Live Link to the website](https://ionelasabinamacovei.github.io/Portfolio-Project-1/)
+[Live Link to the website](https://ionelasabinamacovei.github.io/Fun-Fishing-Portofolio1/)
 ![Mock up screenshot](documents/images/responsive-mock-up.bmp)
+
+### __Wireframes__
+
+- To check out the wireframes for this project, [click here](/Wireframes.md)
 
 ## __Features__
 
@@ -109,8 +113,6 @@ This website was deployed to GitHub Pages. The steps to deploy are:
 - Select pages in left hand navigation menu.
 - From the source dropdown, select main branch and then press save.
 - The site will be deployed now. It may take a few minutes to go live.
-
-The live link can be found here - https://ionelasabinamacovei.github.io/Fun-Fishing-Portofolio1/
 
 ### Frameworks, Libraries & Programs Used
 - [Google Fonts](https://fonts.google.com/ "Link to Google Fonts") was used to import the fonts "Lato", and "Oswald".
