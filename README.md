@@ -64,3 +64,28 @@ The thank you page displays a thankyou message after the users have submitted th
 
 ![Thank you](documents/images/thank-you.png)
 
+## __Testing__
+
+### User Testing
+
+- The website works well on every other device and is responsive to different screen sizes.
+
+- After deploying the site, the website was checked by friends and family on different devices.
+
+- The site was tested on different browsers like Chrome, Edge and Firefox and had no issues.
+
+- The footer links work perfectly and open on a new page.
+
+- Once the form is submitted it displays a thank you message. The button on thank yo page also works fine and takes the users back to home page.
+
+### Validator Testing
+
+- HTML
+    - No errors were found when passing the index.html page through the [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fionelasabinamacovei.github.io%2FPortfolio-Project-1%2F)
+
+    - No errors were found when passing the about.html page through the validator [W3C valiadtor](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ffatimaqais.github.io%2Fdaily-yoga%2Fyogaposes.html)
+
+    - No errors were found when passing the joinus.html page through the validator [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ffatimaqais.github.io%2Fdaily-yoga%2Fjoinus.html)
+
+    - No errors were found when passing the thankyou.html page through the validator [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ffatimaqais.github.io%2Fdaily-yoga%2Fthankyou.html)
+
