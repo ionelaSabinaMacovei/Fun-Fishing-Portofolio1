@@ -112,3 +112,28 @@ This website was deployed to GitHub Pages. The steps to deploy are:
 
 The live link can be found here - https://ionelasabinamacovei.github.io/Fun-Fishing-Portofolio1/
 
+### Frameworks, Libraries & Programs Used
+- [Google Fonts](https://fonts.google.com/ "Link to Google Fonts") was used to import the fonts "Lato", and "Oswald".
+- [Font Awesome](https://fontawesome.com/ "Link to FontAwesome") was used for the several icons.
+- [GitPod](https://gitpod.io/ "Link to GitPod homepage") was used for writing, commiting, and pushing code.
+- [GitHub](https://github.com/ "Link to GitHub")
+
+## __Credits__
+
+### Code
+- The code for the footer was taken from Love running walkthrough project.[Code Institute's](https://codeinstitute.net/)
+- The code idea for the nav bar, gallery and about pages was taken from the same above mentioned source. However, there are some style changes to suit my project. 
+- Another sources used to create the home, sign-up and thank you page was two repositories but however, there are some style changes to suit my project.: 
+- [Abyss-Dive-Club](https://github.com/LudovicLeGuen/Abyss-Dive-Club)
+- [daily-yoga](https://github.com/fatimaqais/daily-yoga)
+
+### Content
+- The information in the about section is taken from: [The girls can](https://www.thisgirlcan.co.uk/activities/angling/?fbclid=IwAR0xI0jCI9EOliwbUc69vkkcyWgPZfRWVqODwttsDpws4wf813Z5EDzYcko)
+
+### Media
+
+-Pictures used on the site come from various websites and belong to several different owners:
+
+
+
+
