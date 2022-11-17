@@ -335,7 +335,6 @@ footer {
 
 .signup-form > h2 {
     color: #fafafa;
-    font-size: 200%;
     text-shadow: 2px 2px black;
     margin-bottom: 20px;
     text-align: center;
@@ -619,8 +618,22 @@ footer {
     border-radius: 10%;}
 
 .signup-form {
-    padding-bottom: 285px;}
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    }
 
+.signup-form > h2 {
+    color: #fafafa;
+    text-shadow: 2px 2px black;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+.join-button {
+    padding: 5px 32px;
     
-}
+    }
 
+
+}
