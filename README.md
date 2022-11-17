@@ -132,7 +132,13 @@ The live link can be found here - https://ionelasabinamacovei.github.io/Fun-Fish
 
 ### Media
 
--Pictures used on the site come from various websites and belong to several different owners:
+- Pictures used on the site come from various websites and belong to several different owners and some of the pictures used are from personal folder.
+https://unsplash.com/
+https://www.bettycrocker.com/
+https://www.freepik.com/
+- The icons for about section were taken from:
+https://fontawesome.com/
+
 
 
 
