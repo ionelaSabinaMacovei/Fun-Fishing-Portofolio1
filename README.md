@@ -83,9 +83,11 @@ The thank you page displays a thankyou message after the users have submitted th
 - HTML
     - No errors were found when passing the index.html page through the [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fionelasabinamacovei.github.io%2FPortfolio-Project-1%2F)
 
-    - No errors were found when passing the about.html page through the validator [W3C valiadtor](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ffatimaqais.github.io%2Fdaily-yoga%2Fyogaposes.html)
+    - No errors were found when passing the about.html page through the validator [W3C valiadtor](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fionelasabinamacovei.github.io%2FPortfolio-Project-1%2Fabout.html)
 
-    - No errors were found when passing the gallery.html page through the validator [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ffatimaqais.github.io%2Fdaily-yoga%2Fjoinus.html)
+    - No errors were found when passing the gallery.html page through the validator [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fionelasabinamacovei.github.io%2FPortfolio-Project-1%2Fgallery.html)
 
     - No errors were found when passing the sign-up.html page through the validator [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fionelasabinamacovei.github.io%2FPortfolio-Project-1%2Fsign-up.html)
+
+    - No errors were found when passing the thank-you.html page through the validator [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fionelasabinamacovei.github.io%2FPortfolio-Project-1%2Fthankyou.html)
 
