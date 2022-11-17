@@ -101,5 +101,14 @@ The website was tested for performance and accessibilty using Lighthouse on goog
 
 ![Lighthouse testing](documents/images/lighthouse-result.png)
 
+## __Deployement__
 
+This website was deployed to GitHub Pages. The steps to deploy are:
+- Log in to GitHub
+- Go to the setting for this repository.
+- Select pages in left hand navigation menu.
+- From the source dropdown, select main branch and then press save.
+- The site will be deployed now. It may take a few minutes to go live.
+
+The live link can be found here - https://ionelasabinamacovei.github.io/Fun-Fishing-Portofolio1/
 
