@@ -10,7 +10,7 @@ It also has a sign up page which allows the user to join our mailing list which 
 The aim of the project is to build a responsive website using HTML and CSS.
 
 [Live Link to the website](https://ionelasabinamacovei.github.io/Fun-Fishing-Portofolio1/)
-![Mock up screenshot](documents/images/responsive-mock-up.bmp)
+![Mock up screenshot](documents/images/resposivnes-mock-up.png)
 
 ### __Wireframes__
 
@@ -48,7 +48,7 @@ The aim of the project is to build a responsive website using HTML and CSS.
 
 -The about page will allow the user to see the benefits, costs and equipment needed for fishing classes.
 
-![About Page](documents/images/about-page.png)
+![About Page](documents/images/about-fishing.png)
 
 ### Gallery
 
@@ -60,13 +60,13 @@ The aim of the project is to build a responsive website using HTML and CSS.
 
 - The sign-up page asks the users to enter their name, email and choose an option for the type of fishing they would like to do. When submitting details users are directed to a Thank you Page.
 
-![Sign up](documents/images/sign-up.png)
+![Sign up](documents/images/sign-up-page.png)
 
 ### Thank you Page
 
 The thank you page displays a thankyou message after the users have submitted their form and has a button that takes the users back to the home page.
 
-![Thank you](documents/images/thank-you.png)
+![Thank you](documents/images/thank-you-page.png)
 
 ## __Testing__
 
