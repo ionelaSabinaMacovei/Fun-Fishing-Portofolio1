@@ -68,12 +68,9 @@ header {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #1666AF;
+    border-bottom: 1px solid #1666AF;  
 }
 
-.active {
-    border-bottom: 1px solid #1666AF;
-}
 
 /* hero image and cover text*/
 
@@ -144,6 +141,7 @@ header {
     height: auto;
     width: 32%;
     margin-top: 30px;
+    margin-bottom: 30px;
     overflow: hidden;
     font-size: 150%;
     background-color: #bfe8f0
@@ -154,7 +152,7 @@ header {
     border-radius: 5%;
     font-weight: bold;
     letter-spacing: 4px;
-    bottom: 0px;
+    bottom: 30px;
 
 }
 
@@ -185,14 +183,14 @@ header {
     text-transform: uppercase;
     letter-spacing: 4px;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 40px;
 }
 
 .activity-box p {
     font-size: 100%;
     text-align: left;
     line-height: 30px;
-    margin: 15px 10px 0px 10px;
+    margin: 15px 10px 20px 10px;
 }
 
 /*About fishing Page*/
@@ -205,6 +203,7 @@ header {
     padding-top: 30px;
     width: 33%;
     float: left;
+   
 }
 
 #right-about {
@@ -276,7 +275,7 @@ hr {
 /* Footer section */
 
 footer {
-    height: 150px;
+    height: 100px;
 }
 
 .social-links {
@@ -288,9 +287,9 @@ footer {
 }
 
 .social-links i {
-    font-size: 250%;
+    font-size: 200%;
     margin: 1%;
-    padding: 5%;
+    padding: 1%;
     color:#1666AF ;
 }
 
@@ -314,16 +313,23 @@ footer {
     
     background-size: cover;
     background-position: center;
-    height: 900px;
+    
 
 }
 
 .signup-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.signup-form {
     background: url(../images/hero-image.jpg) center;
     width: 60%;
     height: 60%;
-    padding-top: 80px;
-    padding-bottom: 110px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     position: relative;
     left: 20%;
     top: 10px;
@@ -356,31 +362,21 @@ footer {
     border-color: #fcfcfc;
 }
 
-.signup-form {
-    display: flex;
-    align-items: center;
-    flex-direction: column; 
-
-}
-
 .signup-form > label {
     font-family: Oswald, sans-serif;
     font-weight: 300;
-    color: hsl(0, 67%, 1%);
+    color: #fafafa;
     font-size: 125%;
-   
 
 }
 
 .signup-form > p {
     font-family: Oswald, sans-serif;
     font-weight: 300;
-    color: hsl(0, 67%, 1%);
+    color: #fafafa;
     font-size: 145%;
 
 }
-
-
 
 .join-button {
     margin-top: 20px;
@@ -457,17 +453,17 @@ footer {
         margin: 0;
     }
 
+    #about-fishing {
+        height: 800px;}
+
     #left-about,
     #right-about {
-        width: 80%;
-        float: left;
+       
         padding: 0;
     }
 
     #center-about {
-        clear: both;
-        width: 80%;
-        float: left;
+
         padding: 0;
     }
 }
@@ -486,29 +482,24 @@ footer {
     #cover-text {
         right: 0;
     }
+
+    #activities {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+  
+    .activity-box {
+        height: auto;
+        width: auto;
+       
+        overflow: hidden;
+        font-size: 150%;
+        background-color: #bfe8f0;
+    }
     
-    #activity-box  {
-        width: 90%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    .left-about-heading,
-    .right-about-heading {
-        width: inherit;
-        
-    }
-
-    .left-about-heading h2,
-    .right-about-heading h2 {
-        width: 80%;
-        text-align: center;
-    }
-
-    .left-about-heading p,
-    .right-about-heading p {
-        text-align: center;
-        padding: 20px 20px;
+    
+    #about-fishing{
+        height:1000px;
     }
 
     #photos {
@@ -516,13 +507,61 @@ footer {
     }
 
     .signup-form {
-        padding-bottom: 200px;
+        padding-bottom: auto;
     }
 }
 
-/* For medium screen sizes 800px or less */
+/* For medium screen sizes 750px or less */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 750px) {
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        height: auto;
+        margin: 10px 0px 10px 15px;
+        flex-direction: row;
+    }
+
+    #menu {
+        clear: left;
+        float: left;
+        margin: 0 0 20px 20px;
+        line-height: 25px;
+    }
+
+    #about-fishing {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: auto;
+    }
+
+
+    #left-about, #right-about {
+        display: flex;
+        flex-wrap: nowrap;
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        margin-left: 200px;
+        margin-right: auto;
+        float:none;
+        text-align: center;
+    
+    }
+    #center-about{
+        display: flex;
+    }
+
+    #right-about p{
+        text-align: center;
+    }
+    
+    .right-about-heading h2 {
+        text-align: center;
+    }
+
     #photos {
         column-count: 2;
     }
@@ -535,23 +574,17 @@ footer {
 
     header {
         display: flex;
-        height: 68px;
-        margin: 5px 0px 5px 10px;
+        justify-content: space-between;
+        height: auto;
+        margin: 10px 0px 10px 15px;
         flex-direction: column;
-        flex-wrap: wrap;
-        align-content: stretch;
-        align-items: center;
     }
 
 #logo {
     float: left;
-    font-size: 60%;
-    margin-left: 10px;
-   
 }
 
 #menu {
-    font-size: 40%;
     display: flex;
     justify-content: right;
     align-items: center;
@@ -566,74 +599,33 @@ footer {
     position: relative;
 }
 
-#cover-text,
-#cover-text h2 {
-    font-size: 50%;
-}
-
-
-#cover-text {
-    font-size: 60%;
-
-    width: 150px;
-    height: 100px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-
-    bottom: 30px;
-    right: 150px;
-
-    position: absolute;
-}
-
-
-#activities {
+#left-about, #right-about {
     display: flex;
-    justify-content: space-around;
-    flex-direction: column-reverse;
-}
-
-
-.activity-box {
-    height: auto;
-    width: auto;
-    margin-top: 30px;
-    overflow: hidden;
-    font-size: 150%;
-    background-color: #bfe8f0
-}
-
-.activity-box {
-    margin: 20px auto;
-    border-radius: 5%;
-    font-weight: bold;
-    letter-spacing: 2px;
-    bottom: 0px;
-
-}
-
-.activity-picture{
-    height: 400px;
-    border-radius: 10%;}
-
-.signup-form {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
     flex-wrap: nowrap;
-    }
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: 100px;
+    float: none;
+    overflow: hidden;
+}
 
-.signup-form > h2 {
-    color: #fafafa;
-    text-shadow: 2px 2px black;
-    margin-bottom: 20px;
+#left-about p{
     text-align: center;
-    }
-.join-button {
-    padding: 5px 32px;
-    
-    }
+}
+
+#right-about p{
+    text-align: center;
+}
+
+.right-about-heading h2 {
+    text-align: center;
+}
+
+#center-about{
+    margin:auto;
+}
 
 
 }
