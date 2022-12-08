@@ -386,6 +386,10 @@ footer {
     font-size: 145%;
 
 }
+.radio-input {
+    border-radius: 2px black;
+    
+}
 
 .join-button {
     margin-top: 20px;
@@ -451,11 +455,17 @@ footer {
 /* For larger to medium screen size from 1200px width or less*/
 
 @media screen and (max-width: 1200px) {
-    #activity-box {
+    .activity-box {
         width: 65%;
-        height: 1200px;
-        margin: 0 auto;
+        margin: 10px;
     }
+
+    .activity-box h3{
+        font-size: 125%;
+    }
+
+    .activity-box p {
+        font-size: 75%;}
 
     #welcome {
         padding: 30px 0;
@@ -463,7 +473,9 @@ footer {
     }
 
     #about-fishing {
-        height: 800px;}
+        
+        height: auto;
+    }
 
     #left-about,
     #right-about {
@@ -477,9 +489,81 @@ footer {
     }
 }
 
-/* For medium screen sizes from 950px width and lower */
+/* For medium screen sizes from 1100px width and lower */
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1100px)
+{
+
+    #left-about, #right-about {
+        display: flex;
+        flex-wrap: nowrap;
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        margin-right: auto;
+        margin-left: auto;
+        float: none;
+        overflow: hidden;
+        align-items: center;
+    }
+    
+    #left-about p{
+        text-align: center;
+    }
+    
+    #right-about p{
+        text-align: center;
+    }
+    
+    .right-about-heading h2 {
+        text-align: center;
+        word-spacing: 3px;
+        letter-spacing: 3px;
+        line-height: normal;
+    }
+    
+    .left-about-heading h2 {
+        word-spacing: 3px;
+        letter-spacing: 3px;
+        line-height: normal;
+        text-align: center;
+    }
+    
+    #center-about{
+        margin:auto;
+        width: auto;
+        
+    }
+
+    #photos {
+        column-count: 3;
+    }
+
+    .signup-form {
+        background: url(../images/hero-image.jpg) center;
+        width: 80%;
+        height: 60%;
+        padding-top: 60px;
+        padding-bottom: 50px;
+        position: relative;
+        left: 10%;
+        top: 10px;
+        border: #34a2eb solid 5px;
+        border-radius: 5px;
+    }
+
+    .text-input{
+        width: 50%;
+        height: 25px;
+    }
+
+}
+
+
+
+/* For medium screen sizes from 1000px width and lower */
+
+@media screen and (max-width: 1000px) {
     
     #menu {
         clear: left;
@@ -495,21 +579,19 @@ footer {
     #activities {
         display: flex;
         flex-direction: column-reverse;
+        align-items: center;
     }
   
     .activity-box {
         height: auto;
-        width: auto;
+        width: 90%;
+        margin: 10px;
        
         overflow: hidden;
         font-size: 150%;
         background-color: #bfe8f0;
     }
     
-    
-    #about-fishing{
-        height:1000px;
-    }
 
     #photos {
         column-count: 3;
@@ -519,6 +601,15 @@ footer {
         padding-bottom: auto;
     }
 }
+
+/* For medium screen sizes 840px or less */
+
+@media screen and (max-width: 840px) {
+    #photos {
+        column-count: 2;
+    }
+}
+
 
 /* For medium screen sizes 750px or less */
 
@@ -532,49 +623,73 @@ footer {
         flex-direction: row;
     }
 
+    
     #menu {
-        clear: left;
-        float: left;
-        margin: 0 0 20px 20px;
-        line-height: 25px;
-    }
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            flex-direction: row-reverse;
+        
+            font-size: 15px;
+            margin: 0 0 10px 20px;
+            word-spacing: 0;
+            letter-spacing: 3px;
+        }
 
-    #about-fishing {
+        .text-input {
+            width: 70%;
+            height: 25px;}
+   
+    
+}
+/* For medium screen sizes 681px or less */
+
+@media screen and (max-width: 681px){
+    header {
         display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
+        justify-content: space-between;
         height: auto;
-    }
-
-
-    #left-about, #right-about {
-        display: flex;
-        flex-wrap: nowrap;
-        width: auto;
-        height: auto;
+        margin: 10px 0px 10px 15px;
         flex-direction: column;
-        margin-left: 200px;
-        margin-right: auto;
-        float:none;
-        text-align: center;
-    
-    }
-    #center-about{
-        display: flex;
     }
 
-    #right-about p{
-        text-align: center;
-    }
-    
-    .right-about-heading h2 {
-        text-align: center;
-    }
+#logo {
+    float: left;
+}
 
-    #photos {
-        column-count: 2;
-    }
-    
+#menu {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: row-reverse;
+
+    font-size: 15px;
+    margin: 0 0 10px 20px;
+    word-spacing: 0;
+    letter-spacing: 2px;
+}
+
+#cover-text {
+    font-size: 70%;
+    width: 150px;
+    height: 100px;
+    letter-spacing: 3px;
+
+}
+
+#hero-outer {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+
+}
+
+.text-input {
+    width: 70%;
+    height: 25px;}
+
 }
 
 /* For small screen sizes from 460px and below*/
@@ -598,6 +713,19 @@ footer {
     justify-content: right;
     align-items: center;
     flex-direction: row-reverse;
+
+    font-size: 15px;
+    margin: 0 0 10px 20px;
+    word-spacing: 0;
+    letter-spacing: 2px;
+}
+
+#cover-text {
+    font-size: 70%;
+    width: 150px;
+    height: 100px;
+    letter-spacing: 3px;
+
 }
 
 #hero-outer {
@@ -608,33 +736,12 @@ footer {
     position: relative;
 }
 
-#left-about, #right-about {
-    display: flex;
-    flex-wrap: nowrap;
-    width: auto;
-    height: auto;
-    flex-direction: column;
-    margin-right: auto;
-    margin-left: 100px;
-    float: none;
-    overflow: hidden;
+#photos {
+    column-count: 1;
 }
 
-#left-about p{
-    text-align: center;
-}
-
-#right-about p{
-    text-align: center;
-}
-
-.right-about-heading h2 {
-    text-align: center;
-}
-
-#center-about{
-    margin:auto;
-}
-
+.text-input {
+    width: 70%;
+    height: 25px;}
 
 }
