@@ -10,33 +10,41 @@ It also has a sign up page which allows the user to join our mailing list which 
 The aim of the project is to build a responsive website using HTML and CSS.
 
 [Live Link to the website](https://ionelasabinamacovei.github.io/Fun-Fishing-Portofolio1/)
-![Mock up screenshot](documents/images/resposivnes-mock-up.png)
+![Mock up screenshot](documents/images/responsivnes-mock-up.jpg)
+
+## __User Experience (UX) and Design__
+
+### __User Stories__
+
+- As a user, I would like to see what kind of fishing can be offer by the fishing club which can be seen on the home page.
+- As a user, I would like to see know about the fishing club and their philosophi.
+- As a user, I would like to see images from fishing classes.
+- As a user, I would like to sign up for fishing classes.
+
+### __Color Scheme__
+
+- The color scheme for this page was taken from [coolors](https://coolors.co/1666af-3a3a3a-bfe8f0-fafafa-78c4ce).
+- Some colours were adjusted accordingly to improve visibility.
+
+![color palette](documents/images/color-scheme.png)
+
 
 ### __Wireframes__
-
+- The wireframes were created with [Balsamiq Wireframes](https://balsamiq.com) as a base to build the website. The developper took the liberty to improove the design during the development. 
 - To check out the wireframes for this project, [click here](/Wireframes.md)
 
 ## __Features__
+
+### Common Features
+
+These features are on every page of the website for a consistent design
 
 -__Logo and Navigation Bar__
 
  - The logo and navigation bar is featured on all four pages.
  - The logo can be clicked to bring you back to the home and the navigation menu takes you to the correct pages. This is responsive on every screen size.
 
- ![Logo and navigation bar](documents/images/logo-navbar.bmp)
-
- -__Main Image__
-
- - This main image introduces the user to Fun Fishing with an eye catching animation to grab their attention.
- - The main image contains a text box with the title of the page and for who is designed this page.
-
- ![Main Image](documents/images/main-image.bmp)
-
- -__Activities Section__
-
- - The activities section will allow the user to see the main activities which are dedicated for beginers, childrens and also can be dedicated for all the family and friends.
-
- ![Activities Section](documents/images/activities-section.jpg)
+ ![Logo and navigation bar](documents/images/logo+nav-bar.png)
 
  -__The Footer__
 
@@ -44,17 +52,22 @@ The aim of the project is to build a responsive website using HTML and CSS.
  - The footer stays the same on every page.
  ![Footer](documents/images/footer.png)
 
+### Home
+- Home page will present to the user the main fishing classes.
+
+![Home Page](documents/images/home-page.png)
+
 ### About
 
--The about page will allow the user to see the benefits, costs and equipment needed for fishing classes.
+- The about page will allow the user to see the benefits, costs and equipment needed for fishing classes.
 
-![About Page](documents/images/about-fishing.png)
+![About Page](documents/images/about-page.png)
 
 ### Gallery
 
 - The gallery will provide the user with supporting images to see what the fishing experience look like. 
 
-![Gallery](documents/images/gallery.png)
+![Gallery](documents/images/gallery-page.png)
 
 ### Sign-up
 
@@ -82,18 +95,31 @@ The thank you page displays a thankyou message after the users have submitted th
 
 - Once the form is submitted it displays a thank you message. The button on thank yo page also works fine and takes the users back to home page.
 
+### Manual Testing
+
+- The logo and site name go back to the home page.
+- The Navigation menu links open the correct pages.
+- Hovering over the navigation links underline them to show users they are clickable.
+- Pages links are underlined when the user is browsing the page.
+- The footer links open in a new tab.
+- The hero image animation works when the page is refreshed.
+- Each field is required to send the form in sign-up page.
+- The form sends the data correctly.
+- Hovering the back home button change the color
+- The back home button redirects to the home page. 
+
 ### Validator Testing
 
 - HTML
-    - No errors were found when passing the index.html page through the [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fionelasabinamacovei.github.io%2FFun-Fishing-Portofolio1%2Findex.html)
+    - No errors were found when passing the index.html page through the [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-ionelasabin-funfishingp-t92m5i3qu0x.ws-eu77.gitpod.io%2Findex.html)
 
-    - No errors were found when passing the about.html page through the validator [W3C valiadtor](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fionelasabinamacovei.github.io%2FFun-Fishing-Portofolio1%2Fabout.html)
+    - No errors were found when passing the about.html page through the validator [W3C valiadtor](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-ionelasabin-funfishingp-t92m5i3qu0x.ws-eu77.gitpod.io%2Fabout.html)
 
-    - No errors were found when passing the gallery.html page through the validator [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fionelasabinamacovei.github.io%2FFun-Fishing-Portofolio1%2Fgallery.html)
+    - No errors were found when passing the gallery.html page through the validator [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-ionelasabin-funfishingp-t92m5i3qu0x.ws-eu77.gitpod.io%2Fgallery.html)
 
-    - No errors were found when passing the sign-up.html page through the validator [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fionelasabinamacovei.github.io%2FFun-Fishing-Portofolio1%2Fsign-up.html)
+    - No errors were found when passing the sign-up.html page through the validator [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-ionelasabin-funfishingp-t92m5i3qu0x.ws-eu77.gitpod.io%2Fsign-up.html)
 
-    - No errors were found when passing the thank-you.html page through the validator [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fionelasabinamacovei.github.io%2FFun-Fishing-Portofolio1%2Fthankyou.html)
+    - No errors were found when passing the thank-you.html page through the validator [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-ionelasabin-funfishingp-t92m5i3qu0x.ws-eu77.gitpod.io%2Fthankyou.html)
 
 - CSS 
     - No errors were found when passing through the official Jigsaw validator
@@ -103,7 +129,15 @@ The thank you page displays a thankyou message after the users have submitted th
 ### Performance and Accessibility Testing
 The website was tested for performance and accessibilty using Lighthouse on google chrome's developer tools.
 
-![Lighthouse testing](documents/images/lighthouse-result.png)
+![Lighthouse testing](documents/images/lighthouse.png)
+
+## __Issues and Bugs__ 
+- Several issues were encountered during developpement but the most troubles are listed below.
+
+- One of the issue was with the footer. In every page the footer was supposed to stay at the bottom of the page. The solution for this problem was solved by adding the felx display and given the  flex direction: column, and then set a width of 100% and a height of 100px. 
+- Another problem with thge footer was the spacing between links. This was fixed by given to the social-links an text-alignement  :center and setting the display : inline.
+- The about page represented another issue because of the format given. The responsivens on this page was difficult to be set on different screen sizes. This problem was solved by given the flex value to display and setting the directions to columns. In this way the text was nice aligned.
+- Another problem was represented by the image from about page in smaller screen sizes. The problem was solved by removing the 33% of the widht and given an auto value to width.
 
 ## __Deployement__
 
@@ -113,6 +147,21 @@ This website was deployed to GitHub Pages. The steps to deploy are:
 - Select pages in left hand navigation menu.
 - From the source dropdown, select main branch and then press save.
 - The site will be deployed now. It may take a few minutes to go live.
+
+### Local Deployement
+To fork this repository, follow these steps:
+- Log in to GitHub
+- Go to the repository
+- On the top right corner, click on the button that says fork.
+
+To clone this repository, follow the steps:
+- Log in to GitHub
+- Go to the repository
+- Beside the gipod button, it is code button
+- Press the Code button and the chose one of the two clonning methods
+- 1. The first one is by copping the link 
+- 2. The second one is by downloding(at the botom) by pressing Download ZIP.
+
 
 ### Frameworks, Libraries & Programs Used
 - [Google Fonts](https://fonts.google.com/ "Link to Google Fonts") was used to import the fonts "Lato", and "Oswald".

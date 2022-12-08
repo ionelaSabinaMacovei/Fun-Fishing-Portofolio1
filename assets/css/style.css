@@ -386,10 +386,8 @@ footer {
     font-size: 145%;
 
 }
-.radio-input {
-    border-radius: 2px black;
-    
-}
+.signup-form input {
+    display: inline-block;}
 
 .join-button {
     margin-top: 20px;
@@ -597,9 +595,6 @@ footer {
         column-count: 3;
     }
 
-    .signup-form {
-        padding-bottom: auto;
-    }
 }
 
 /* For medium screen sizes 840px or less */
