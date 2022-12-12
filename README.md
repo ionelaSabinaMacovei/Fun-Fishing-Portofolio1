@@ -132,12 +132,25 @@ The website was tested for performance and accessibilty using Lighthouse on goog
 ![Lighthouse testing](documents/images/lighthouse.png)
 
 ## __Issues and Bugs__ 
-- Several issues were encountered during developpement but the most troubles are listed below.
 
-- One of the issue was with the footer. In every page the footer was supposed to stay at the bottom of the page. The solution for this problem was solved by adding the felx display and given the  flex direction: column, and then set a width of 100% and a height of 100px. 
-- Another problem with thge footer was the spacing between links. This was fixed by given to the social-links an text-alignement  :center and setting the display : inline.
-- The about page represented another issue because of the format given. The responsivens on this page was difficult to be set on different screen sizes. This problem was solved by given the flex value to display and setting the directions to columns. In this way the text was nice aligned.
-- Another problem was represented by the image from about page in smaller screen sizes. The problem was solved by removing the 33% of the widht and given an auto value to width.
+### First bug
+- Expected - Footer is expected to stay at the bottom of the page.
+- Testing - Scroll the page to see if the footer is at the bottom of the page.
+- Result - The footer is staing closer to content.
+- Fix - I added some height to pages and setting the foter to flex display.
+
+### Second bug
+- Expected - The social links from the footer have enought space between them.
+- Testing - See if the social links have engouht space.
+- Result - The soacial links dosent have space beteen them when scrooling down.
+- Fix - Added  text alignement center to social links and setting the display : inline.
+
+### Third bug
+- Expected - Responsinvnes of the about page.
+- Testing - Reducing teh size of the screen.
+- Result - The about page dosent have a good responsivnes in the small screen sizes, everithing is distorted.
+- Fix - This problem was solved by given the flex value to display and setting the directions to columns. In this way the text was nice aligned.
+
 
 ## __Deployement__
 
